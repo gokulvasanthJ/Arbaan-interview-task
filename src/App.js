@@ -16,16 +16,14 @@ function App() {
   <div className="container-fluid">
   
     <Routes>
-    <Route element={<PrivateRoutes/>}>
+    
     <Route path="*" element= {<Navigate to="login"/>} />
     
       <Route path="/home" element={<Home/>}/>
       <Route path="/manage" element={<ManageBlogs/>}/>
       <Route path="/create" element={<CreateBlog/>}/>
       <Route path="/edit/:id" element={<EditBlog/>}/>
-      </Route>
-      <Route path="/login" element={<LogIn />} />
-    <Route path="/signup" element={<SignUp />} />
+      
 
     </Routes>
    
