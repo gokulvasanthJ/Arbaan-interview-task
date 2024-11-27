@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useState } from 'react';
 import { API_URL } from '../App';
 import { useEffect } from 'react';
-import Card from 'react-bootstrap/Card';
 
 
 function Home() {
